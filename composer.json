@@ -1,0 +1,23 @@
+{
+	"name": "orchestra/ftp-updater",
+	"description": "Extension Updater (via FTP) for Orchestra Platform",
+	"license": "MIT",
+	"keywords": ["orchestra-platform", "orchestral"],
+	"authors": [
+		{
+			"name": "Mior Muhammad Zaki",
+			"email": "crynobone@gmail.com",
+			"homepage": "https://github.com/crynobone"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Orchestra\\FtpUpdater\\": "src/"
+		}
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"orchestra/support": "~3.1"
+	},
+	"minimum-stability": "dev"
+}
