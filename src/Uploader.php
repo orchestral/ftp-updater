@@ -3,8 +3,8 @@
 use Closure;
 use RuntimeException;
 use Orchestra\Support\Str;
-use Orchestra\FtpUpdater\Client\ServerException;
 use Orchestra\FtpUpdater\Client\Ftp as FtpClient;
+use Orchestra\Contracts\Publisher\ServerException;
 use Orchestra\Contracts\Publisher\Uploader as UploaderContract;
 
 class Uploader implements UploaderContract

@@ -110,7 +110,7 @@ class FtpTest extends \PHPUnit_Framework_TestCase
     /**
      * Test Orchestra\Support\Ftp::connect() method with ftp_ssl_connect() throws exception.
      *
-     * @expectedException \Orchestra\FtpUpdater\Client\ServerException
+     * @expectedException \Orchestra\Contracts\Publisher\ServerException
      */
     public function testConnectMethodSFTPConnectThrowsException()
     {
@@ -128,7 +128,7 @@ class FtpTest extends \PHPUnit_Framework_TestCase
     /**
      * Test Orchestra\Support\Ftp::connect() method with ftp_connect() throws exception.
      *
-     * @expectedException \Orchestra\FtpUpdater\Client\ServerException
+     * @expectedException \Orchestra\Contracts\Publisher\ServerException
      */
     public function testConnectMethodFTPConnectThrowsException()
     {
@@ -146,7 +146,7 @@ class FtpTest extends \PHPUnit_Framework_TestCase
     /**
      * Test Orchestra\Support\Ftp::connect() method with ftp_login() throws exception.
      *
-     * @expectedException \Orchestra\FtpUpdater\Client\ServerException
+     * @expectedException \Orchestra\Contracts\Publisher\ServerException
      */
     public function testConnectMethodFTPLoginThrowsException()
     {

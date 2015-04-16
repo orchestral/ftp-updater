@@ -120,7 +120,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
 
         $session->shouldReceive('put')->once()->with('orchestra.ftp', [])->andReturnNull();
         $client->shouldReceive('setUp')->once()->with(['ftpconfig'])->andReturnNull()
-            ->shouldReceive('connect')->once()->andThrow('\Orchestra\FtpUpdater\Client\ServerException');
+            ->shouldReceive('connect')->once()->andThrow('\Orchestra\Contracts\Publisher\ServerException');
 
         new Uploader($app, $client);
     }

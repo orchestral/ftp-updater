@@ -1,6 +1,7 @@
 <?php namespace Orchestra\FtpUpdater\Client;
 
 use Illuminate\Support\Arr;
+use Orchestra\Contracts\Publisher\ServerException;
 
 class Ftp 
 {
@@ -209,7 +210,7 @@ class Ftp
      *
      * @return bool|null
      *
-     * @throws \Orchestra\FtpUpdater\Client\ServerException
+     * @throws \Orchestra\Contracts\Publisher\ServerException
      */
     public function connect()
     {
@@ -243,7 +244,7 @@ class Ftp
      *
      * @return void
      *
-     * @throws \Orchestra\FtpUpdater\Client\ServerException
+     * @throws \Orchestra\Contracts\Publisher\ServerException
      */
     protected function createConnection($host, $port = 21, $timeout = 90)
     {
@@ -263,7 +264,7 @@ class Ftp
      *
      * @return void
      *
-     * @throws \Orchestra\FtpUpdater\Client\ServerException
+     * @throws \Orchestra\Contracts\Publisher\ServerException
      */
     protected function createSecureConnection($host, $port = 21, $timeout = 90)
     {
