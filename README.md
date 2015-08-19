@@ -42,6 +42,6 @@ Add following service providers in `resources/config/app.php`.
 
     // ...
 
-    'Orchestra\FtpUpdater\UploaderServiceProvider',
+    Orchestra\FtpUpdater\UploaderServiceProvider::class,
 ],
 ```
