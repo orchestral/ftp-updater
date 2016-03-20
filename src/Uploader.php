@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater;
+<?php
+
+namespace Orchestra\FtpUpdater;
 
 use Closure;
 use RuntimeException;

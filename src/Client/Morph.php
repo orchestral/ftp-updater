@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater\Client;
+<?php
+
+namespace Orchestra\FtpUpdater\Client;
 
 use Orchestra\Support\Morph as Base;
 

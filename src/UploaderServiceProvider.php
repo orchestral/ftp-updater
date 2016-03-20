@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater;
+<?php
+
+namespace Orchestra\FtpUpdater;
 
 use Orchestra\FtpUpdater\Client\Ftp;
 use Illuminate\Support\ServiceProvider;

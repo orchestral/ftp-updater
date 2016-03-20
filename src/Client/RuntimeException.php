@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater\Client;
+<?php
+
+namespace Orchestra\FtpUpdater\Client;
 
 class RuntimeException extends \RuntimeException
 {

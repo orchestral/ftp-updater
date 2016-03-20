@@ -1,9 +1,11 @@
-<?php namespace Orchestra\FtpUpdater\Client;
+<?php
+
+namespace Orchestra\FtpUpdater\Client;
 
 use Illuminate\Support\Arr;
 use Orchestra\Contracts\Publisher\ServerException;
 
-class Ftp 
+class Ftp
 {
     /**
      * FTP stream connection.
