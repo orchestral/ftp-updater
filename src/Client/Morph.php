@@ -28,7 +28,7 @@ class Morph extends Base
         $result = null;
 
         if (! static::isCallable($method)
-            || ! $result = call_user_func_array(static::$prefix.$method, $parameters)) {
+            || ! $result = call_user_func(static::$prefix.$method, ...$parameters)) {
             throw new RuntimeException("Failed to use {$method}.", $parameters);
         }
 

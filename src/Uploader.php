@@ -263,7 +263,7 @@ class Uploader implements UploaderContract
             $this->permission($path, $mode);
 
             if (is_callable($callback)) {
-                call_user_func($callback);
+                $callback();
             }
         }
     }
