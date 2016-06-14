@@ -3,6 +3,12 @@ title: FTP Updater Change Log
 
 ---
 
+## Version 3.3 {#v3-3}
+
+### v3.3.0 {#v3-3-0}
+
+* Update support for Orchestra Platform v3.3.
+
 ## Version 3.2 {#v3-2}
 
 ### v3.2.0 {#v3-2-0}
