@@ -22,8 +22,7 @@
         "orchestra/support-core": "~3.3.0"
     },
     "require-dev": {
-        "mockery/mockery": "^0.9.4",
-        "orchestra/foundation": "~3.3.0"
+        "mockery/mockery": "^0.9.4"
     },
     "extra": {
         "branch-alias": {
