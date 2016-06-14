@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater\TestCase;
+<?php
+
+namespace Orchestra\FtpUpdater\TestCase;
 
 use Mockery as m;
 use Orchestra\FtpUpdater\Uploader;
@@ -58,7 +60,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test constructing Orchestra\Foundation\Publisher\Ftp.
+     * Test constructing \Orchestra\FtpUpdater\Uploader.
      *
      * @test
      */
@@ -84,7 +86,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test constructing Orchestra\Foundation\Publisher\Ftp when connection
+     * Test constructing \Orchestra\FtpUpdater\Uploader when connection
      * is not set.
      *
      * @test
@@ -107,7 +109,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test constructing Orchestra\Foundation\Publisher\Ftp throws ServerException.
+     * Test constructing \Orchestra\FtpUpdater\Uploader throws ServerException.
      *
      * @test
      */
@@ -126,7 +128,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test Orchestra\Foundation\Publisher\Ftp::upload() method.
+     * Test \Orchestra\FtpUpdater\Uploader::upload() method.
      *
      * @test
      */
@@ -159,7 +161,7 @@ class UploaderTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Test Orchestra\Foundation\Publisher\Ftp::upload() method chmod vendor
+     * Test \Orchestra\FtpUpdater\Uploader::upload() method chmod vendor
      * folder.
      *
      * @test
