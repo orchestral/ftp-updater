@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater\Client\TestCase;
+<?php
+
+namespace Orchestra\FtpUpdater\TestCase\Client;
 
 use Orchestra\FtpUpdater\Client\Ftp;
 use Orchestra\FtpUpdater\Client\Morph;

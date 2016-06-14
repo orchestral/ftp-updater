@@ -1,4 +1,6 @@
-<?php namespace Orchestra\FtpUpdater\TestCase;
+<?php
+
+namespace Orchestra\FtpUpdater\TestCase;
 
 use Mockery as m;
 use Orchestra\FtpUpdater\Uploader;
